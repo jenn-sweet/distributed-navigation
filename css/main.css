@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 2em;
+}
