@@ -10,18 +10,24 @@ html {
 
 body {
   margin: 0;
-}
-
-header h1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-size: auto;
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-padding: 1rem .75rem 1em 6em;
+  padding: 1rem .75rem 1em 6em;
   background-color: #e2e2e2;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+header p {
+  font-weight: normal;
 }
 
 nav ul {
@@ -33,9 +39,13 @@ nav ul {
   flex-direction: row;
 }
 
+nav a:hover {
+  color: #fff;
+}
+
 nav a {
-  font-style: none;
-  }
+  color: #0074d9;
+}
 
 header img {
   width: 2em;
